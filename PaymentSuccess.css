@@ -1,0 +1,139 @@
+
+.success-page {
+  min-height: 100vh;
+  background: #f8f4ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.success-card {
+  width: 100%;
+  max-width: 570px;
+  background: white;
+  padding: 45px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 35px rgba(60, 40, 25, 0.1);
+}
+
+.success-icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 22px;
+  background: #e7f4e8;
+  color: #39864c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.success-label {
+  color: #ae8248;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.success-card h1 {
+  color: #3d291f;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.success-message {
+  color: #918176;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.success-details {
+  background: #f8f3eb;
+  border-radius: 6px;
+  padding: 22px;
+  text-align: left;
+}
+
+.success-details > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e9dfd4;
+  font-size: 13px;
+}
+
+.success-details span {
+  color: #8c7b6e;
+}
+
+.success-details strong {
+  color: #493025;
+  text-align: right;
+}
+
+.success-details .success-status {
+  color: #39864c;
+}
+
+.success-details .success-amount {
+  border-bottom: none;
+  padding-top: 20px;
+}
+
+.success-amount strong {
+  color: #a77b43;
+  font-size: 24px;
+}
+
+.success-thanks {
+  color: #a77b43;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  font-style: italic;
+  margin: 25px 0;
+}
+
+.success-button {
+  width: 100%;
+  padding: 16px;
+  background: #493025;
+  border: none;
+  border-radius: 5px;
+  color: #f2d49b;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.success-button:hover {
+  background: #ad8048;
+  color: white;
+}
+
+.success-home {
+  margin-top: 17px;
+  background: transparent;
+  border: none;
+  color: #8b6742;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .success-card {
+    padding: 25px 18px;
+  }
+
+  .success-card h1 {
+    font-size: 29px;
+  }
+}

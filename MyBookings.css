@@ -1,0 +1,136 @@
+
+.mybookings-page {
+  min-height: 100vh;
+  padding: 45px 20px;
+  background: linear-gradient(135deg, #24150f, #4a2d20);
+  font-family: Arial, sans-serif;
+}
+
+.mybookings-header {
+  text-align: center;
+  color: #fffaf3;
+  margin-bottom: 35px;
+}
+
+.mybookings-header h1 {
+  color: #d5ad69;
+  letter-spacing: 4px;
+  font-family: Georgia, serif;
+  margin-bottom: 15px;
+}
+
+.mybookings-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.mybookings-header p {
+  color: #e2cbb1;
+}
+
+.mybookings-container {
+  max-width: 850px;
+  margin: auto;
+}
+
+.booking-history-card {
+  background: #fffaf3;
+  border-radius: 13px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.booking-history-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #eadbc5;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.booking-history-top h3 {
+  color: #79512a;
+  font-size: 21px;
+}
+
+.booking-status {
+  background: #d9f1df;
+  color: #23723d;
+  padding: 7px 13px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.booking-history-details p {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #66574b;
+  padding: 9px 0;
+  border-bottom: 1px solid #f0e7dc;
+}
+
+.booking-history-details strong {
+  color: #38251a;
+}
+
+.no-bookings {
+  text-align: center;
+  background: #fffaf3;
+  padding: 45px 20px;
+  border-radius: 13px;
+}
+
+.no-bookings h3 {
+  color: #79512a;
+  margin-bottom: 12px;
+}
+
+.no-bookings p {
+  color: #75675e;
+  margin-bottom: 20px;
+}
+
+.mybookings-container button {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 15px auto;
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  background: #c49a55;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mybookings-container button:hover {
+  background: #8a622d;
+  transform: translateY(-2px);
+}
+
+.back-home-btn {
+  background: #fffaf3 !important;
+  color: #79512a !important;
+}
+
+@media (max-width: 500px) {
+  .booking-history-card {
+    padding: 17px;
+  }
+
+  .booking-history-top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .booking-history-details p {
+    font-size: 13px;
+  }
+}
